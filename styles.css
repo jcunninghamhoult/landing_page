@@ -160,7 +160,7 @@ Block Four */
 .box {
     display: flex;
     background-color: #3A82F6;
-    padding: 30px 150px;
+    padding: 30px 90px;
     border-radius: 10px;
     gap: 100px;
 }
