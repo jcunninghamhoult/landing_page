@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
+
+
+/* bloack one */
+
 #blockone {
     display: flex;
     justify-content: center;
@@ -76,4 +80,41 @@ html {
 
 .links {
     color: #6D737D;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* 
+
+Block two
+
+*/
+
+.blocktwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.under {
+    font-size: 14px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
 }
