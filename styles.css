@@ -56,6 +56,7 @@ ul {
 
 body {
     height: 100%;
+    min-height: 100%;
     margin: 0;
     font-family: 'Sora', sans-serif;
 }
@@ -148,4 +149,53 @@ Block Three */
 /*
 Block Four */
 
+.blockfour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 90px;
+}
 
+.box {
+    display: flex;
+    background-color: #3A82F6;
+    padding: 30px 150px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.newsletter {
+    margin-top: 2px;
+    border-radius: 10px;
+    padding: 8px 32px;
+    background-color: #3A82F6;
+    color: white;
+    font-weight: bold;
+    border-style: solid; 
+    border-color: white;
+}
+
+.newsheading {
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.action {
+    color: white;
+}
+
+.sub {
+    margin: 0 0 0 0;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+}
